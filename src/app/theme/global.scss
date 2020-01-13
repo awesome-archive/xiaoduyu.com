@@ -1,0 +1,60 @@
+
+:global{
+
+  body{
+    // font-family: Circular, "PingFang-SC", "Hiragino Sans GB", "微软雅黑", "Microsoft YaHei", "Heiti SC" !important;
+    // font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Segoe UI", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    // font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    // text-rendering: optimizeLegibility;
+    // -webkit-font-smoothing: antialiased;
+  
+    
+    // font-size: 13px;
+    // line-height: 1.8;
+    // color: rgba(0,0,0,.8);
+    // font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeiti,WenQuanYi Micro Hei,Helvetica,Arial,sans-serif;
+    // text-rendering: optimizeLegibility;
+    // -webkit-font-smoothing: antialiased;
+  }
+  
+  small{
+    font-size: 12px;
+  }
+  
+  ul{
+    padding:0px;
+    margin:0px;
+  }
+  
+  /*
+  a:focus{
+    outline: none;
+  }
+  
+  textarea:focus,
+  input:focus,
+  input[type]:focus,
+  .uneditable-input:focus {   
+    box-shadow:none;
+    outline: 0 none;
+  }
+  */
+  
+  // 鼠标结果光标变成手势
+  .a, .hand, .btn{
+    &:hover{
+      cursor: pointer;
+      cursor: hand;
+    }
+  }
+  
+  .toastify{
+    z-index: 9999 !important;
+  }
+
+}
+
+@import './custom-bootstrap/index', './light/index', './dark/index';
